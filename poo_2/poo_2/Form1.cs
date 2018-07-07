@@ -55,6 +55,11 @@ namespace poo_2
             MessageBox.Show("me llamaron");
         }
 
+        public Productos(long producto_codigo)
+        {
+            this.producto_codigo = producto_codigo;
+        }
+
 
 
     }
